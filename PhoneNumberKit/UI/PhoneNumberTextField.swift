@@ -140,7 +140,7 @@ open class PhoneNumberTextField: UITextField, UITextFieldDelegate {
         }
     }
 
-    public private(set) lazy var partialFormatter: PartialFormatter = PartialFormatter(
+    public lazy var partialFormatter: PartialFormatter = PartialFormatter(
         phoneNumberKit: phoneNumberKit,
         defaultRegion: defaultRegion,
         withPrefix: withPrefix
